@@ -11,7 +11,7 @@ h2{font-size:1.9em;color:var(--blue);border-bottom:5px solid var(--yel);display:
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
 .card{background:#fff;border-radius:18px;padding:18px;box-shadow:0 4px 0 var(--sky)}
 .vid{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000}.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.btn{display:inline-block;background:var(--yel);color:var(--ink);font-weight:bold;font-size:1.3em;padding:14px 34px;border-radius:40px;text-decoration:none;box-shadow:0 5px 0 #c9a800}
+.btn{display:inline-block;background:var(--yel);color:var(--ink);font-weight:bold;font-size:1.3em;padding:14px 34px;border-radius:40px;text-decoration:none;box-shadow:0 5px 0 #c9a800;margin:8px 12px 14px 0}
 .btn.big{font-size:1.8em;padding:18px 50px}.btn:hover{transform:translateY(2px)}
 .app{background:var(--mint);border-radius:20px;padding:26px;text-align:center}
 .notes span{display:inline-block;background:var(--cream);border-radius:10px;padding:4px 12px;margin:4px;font-weight:bold}
