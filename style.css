@@ -28,3 +28,5 @@ button.btn{border:0;cursor:pointer;font-family:inherit}
 
 .cards.chars{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px}.char{text-align:center}.char img{width:100%;height:220px;object-fit:contain;display:block;margin:0 auto 8px}.char-emoji{font-size:120px;line-height:220px;height:220px}
 @media(max-width:520px){.cards.chars{grid-template-columns:repeat(2,1fr);gap:14px}.char img,.char-emoji{height:140px;line-height:140px}.char-emoji{font-size:80px}}
+
+.socials{display:flex;gap:14px;align-items:center}.soc svg{width:26px;height:26px;fill:#fff;display:block}.soc:hover svg{fill:var(--yel)}
