@@ -30,3 +30,6 @@ button.btn{border:0;cursor:pointer;font-family:inherit}
 @media(max-width:520px){.cards.chars{grid-template-columns:repeat(2,1fr);gap:14px}.char img,.char-emoji{height:140px;line-height:140px}.char-emoji{font-size:80px}}
 
 .socials{display:flex;gap:14px;align-items:center}.soc svg{width:26px;height:26px;fill:#fff;display:block}.soc:hover svg{fill:var(--yel)}
+/* Steady Bots series logo (approved v3 concept, shown as approved on its own cream card; not stretched) */
+.series-logo{display:block;width:min(560px,92%);height:auto;margin:6px auto 4px;border-radius:22px;box-shadow:0 8px 24px rgba(0,0,0,.28)}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
